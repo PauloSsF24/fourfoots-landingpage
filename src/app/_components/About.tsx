@@ -45,7 +45,7 @@ export function About(){
                     </div>
 
                     <div className="space-y-6 mt-10">
-                        <h2 className="text-6xl font-bold">🐾 Sobre a FourFoots</h2>
+                        <h2 className="text-4xl font-bold">🐾 Sobre a FourFoots</h2>
 
                         <p>
                             Na FourFoots, acreditamos que todo pet merece amor, cuidado e momentos felizes. Somos um petshop criado por quem ama animais, para quem ama animais. Aqui, oferecemos não apenas produtos de qualidade, mas também carinho, atenção e compromisso com o bem-estar do seu melhor amigo.
