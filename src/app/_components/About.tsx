@@ -57,15 +57,15 @@ export function About(){
 
                         <ul className="space-y-4">
                             <li className="flex items-center gap-2">
-                                <Check className="text-red-500"/>
+                                <Check className="text-[#1F2933]"/>
                                 Aberto desde 2019
                             </li>
                             <li className="flex items-center gap-2">
-                                <Check className="text-red-500"/>
+                                <Check className="text-[#1F2933]"/>
                                 Equipe especializada!
                             </li>
                             <li className="flex items-center gap-2">
-                                <Check className="text-red-500"/>
+                                <Check className="text-[#1F2933]"/>
                                 Qualidade profissional!
                             </li>
                         </ul>
@@ -73,9 +73,9 @@ export function About(){
                         <div className="flex gap-2">
                             <a 
                             href="#"
-                            className="bg-[#264653] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"    
+                            className="bg-[#FFB862] text-black flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"    
                                 > 
-                                <WhatsappLogo className="w-5 h-5 text-white"/>
+                                <WhatsappLogo className="w-5 h-5 text-black"/>
                                 Contato via Whatsapp
                             </a>
                             <a 

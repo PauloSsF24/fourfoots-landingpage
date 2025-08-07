@@ -3,6 +3,13 @@
 import useEmblaCarousel from "embla-carousel-react"
 import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock } from "lucide-react"
 import { WhatsappLogo } from '@phosphor-icons/react'
+import { Poppins } from 'next/font/google'
+
+const PoppinsFont = Poppins({
+    subsets: ["latin"],
+    weight: "400",
+});
+
 
 const services = [
     {
@@ -60,7 +67,7 @@ export function Services() {
     }
 
     return(
-        <section className="bg-white py-16">
+        <section className={`bg-white py-16 ${PoppinsFont.className}`}>
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold mb-12">Nossos Serviços</h2>
 
@@ -70,13 +77,13 @@ export function Services() {
                         <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
-                                    <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                                    <article className="bg-[#7B68EE] text-[#1F2933] rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                         <div className="flex-1 flex items-start justify-between">
                                             <div className="flex gap-3">
                                                 <span className='text-3xl'>{item.icon}</span>
                                                 <div>
                                                     <h3 className="font-bold text-xl my-1">{item.title}</h3>
-                                                    <p className="text-gray-400 text-sm select-none">
+                                                    <p className="font-bold text-[#1F2933] text-sm select-none">
                                                         {item.description}
                                                     </p>
                                                 </div>
@@ -107,12 +114,12 @@ export function Services() {
 
                     <button onClick={scrollPrev} className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-3 -translate-y-1/2 
                     -translate-x-1/2 top-1/2 z-10'>
-                        <ChevronLeft className='w-6 h-6 text-gray-600'/>
+                        <ChevronLeft className='w-6 h-6 text-[#1F2933]'/>
                     </button>
 
                     <button onClick={scrollNext} className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-7 -translate-y-1/2 
                     -translate-x-1/2 top-1/2 z-10'>
-                        <ChevronRight className='w-6 h-6 text-gray-600'/>
+                        <ChevronRight className='w-6 h-6 text-[#1F2933]'/>
                     </button>
 
                 </div>

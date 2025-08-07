@@ -10,7 +10,7 @@ const PoppinsFont = Poppins({
 
 export function Hero() {
     return(
-        <section className={`bg-[#264653] text-white relative overflow-hidden ${PoppinsFont.className}`}>
+        <section className={`bg-[#FFB862] text-white relative overflow-hidden ${PoppinsFont.className}`}>
             
             <div>
                 <Image
@@ -30,8 +30,8 @@ export function Hero() {
 
                     <div className='space-y-6'>
 
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">Seu pet merece cuidado, carinho e atenção especial.</h1>
-                        <p className="lg:text-lg">Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amiguinho de quatro patas</p>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">O seu animalzinho mereçe todo cuidado, carinho e atenção especial.</h1>
+                        <p className="lg:text-lg">E nós da Fourfoots, oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amiguinho de quatro patas</p>
 
                         <div>
 
