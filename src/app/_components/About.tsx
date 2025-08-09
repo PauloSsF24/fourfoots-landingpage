@@ -73,7 +73,7 @@ export function About(){
                         <div className="flex gap-2">
                             <a 
                             href="#"
-                            className="bg-[#FFB862] text-black flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"    
+                            className="bg-green-500 text-black flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"    
                                 > 
                                 <WhatsappLogo className="w-5 h-5 text-black"/>
                                 Contato via Whatsapp

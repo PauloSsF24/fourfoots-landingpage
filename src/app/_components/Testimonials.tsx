@@ -17,7 +17,7 @@ const PoppinsFont = Poppins({
 const testimonials = [
   {
     content:
-      "A FourFoots é simplesmente incrível! Sempre encontro tudo que a Mel precisa, desde ração de qualidade até brinquedos que ela ama. O atendimento é super atencioso e dá pra sentir que eles realmente se importam com nossos pets.",
+      "A FourFoots é simplesmente incrível! Sempre encontro tudo que a Pituca precisa, desde ração de qualidade até brinquedos que ela ama. O atendimento é super atencioso e dá pra sentir que eles realmente se importam com nossos pets.",
     author: "Fernanda Silva",
     role: "Tutora da Pituca (Viralata)",
     image: tutor2,
@@ -53,7 +53,7 @@ export function Testimonials() {
   }
 
   return (
-    <section className={`bg-[#FF6B6B] py-16 ${PoppinsFont.className}`}>
+    <section className={`bg-[#FDF6ec] py-16 ${PoppinsFont.className}`}>
       <div className="container mx-auto px-4">
 
         <h2 className="text-4xl font-bold text-center mb-12">Depoimentos dos nossos clientes</h2>

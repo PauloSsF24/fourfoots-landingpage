@@ -98,7 +98,7 @@ export function Services() {
 
                                             <a
                                                 href="#"
-                                                className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'
+                                                className='flex items-center justify-center gap-2 hover:bg-[#FFB862] px-4 py-1 rounded-md duration-300'
                                             >
                                                 <WhatsappLogo className='w-5 h-5'/>
                                                 Entrar em contato
