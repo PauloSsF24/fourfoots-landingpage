@@ -22,6 +22,9 @@ O foco principal **não é vender de fato**, mas sim servir como **projeto de es
 
 ---
 
+O projeto estará disponível em:
+📍 https://fourfoots-landingpage.vercel.app
+
 ## 🎯 Objetivo de aprendizado
 
 > Criar um projeto do zero utilizando **Next.js** e **TailwindCSS** para reforçar conceitos fundamentais de front-end moderno.
