@@ -12,7 +12,7 @@
 ## 📖 Sobre o projeto
 
 O **FourFoots** é uma landing page fictícia criada para um petshop imaginário.  
-O foco principal **não é vender de fato**, mas sim servir como **projeto de estudo** para aprofundar meus conhecimentos em **Next.js** e **TailwindCSS**.
+O foco principal é servir como **projeto de estudo** para aprofundar meus conhecimentos em **Next.js** e **TailwindCSS**.
 
 💡 Durante o desenvolvimento, pratiquei:
 - Estruturação de páginas com **Next.js**.
